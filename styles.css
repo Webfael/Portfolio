@@ -29,7 +29,7 @@ nav {
 }
 
 .portfolio spaw {
-    color: red
+    color: #f9004d
 }
 
 li {
@@ -41,8 +41,12 @@ li {
 }
 
 li:hover {
-    color: red;
+    color: #f9004d;
     transition: 0.5s;
+}
+
+.link-menu {
+    text-decoration: none;
 }
 
 .name {
@@ -57,7 +61,7 @@ li:hover {
 }
 
 h1 spaw {
-    color: red;
+    color: #f9004d;
 }
 
 .name h3 {
@@ -67,19 +71,15 @@ h1 spaw {
 section {
     display: flex;
     align-items: center;
-    padding: 20px 15%0;
+    padding: 20px 15%;
     background-color: #000000;
 }
 
 section img {
-    height: 500px;
-    margin-right: 60px;
-    margin-bottom: 30px;
-
-}
-
-img {
+    height: 400px;
     border-radius: 100%;
+    border: 2px solid #f9004d;
+    margin-right: 30px;
 }
 
 section div h2 {
@@ -94,7 +94,7 @@ section div p {
 }
 
 section button {
-    background-color: red;
+    background-color: #f9004d;
     height: 50px;
     width: 180px;
     font-size: 18px;
@@ -105,7 +105,7 @@ section button {
 
 section button:hover {
     background-color: #000000;
-    border: 2px solid red;
+    border: 2px solid #f9004d;
     transition: 0.5s;
 }
 
@@ -144,7 +144,7 @@ section button:hover {
 }
 
 .card a {
-    background-color: red;
+    background-color: #f9004d;
     padding: 10px 20px;
     border-radius: 25px;
     cursor: pointer;
@@ -154,7 +154,7 @@ section button:hover {
 
 .card a:hover {
     background-color: transparent;
-    border: 2px solid red;
+    border: 2px solid #f9004d;
 }
 
 .card-project {
@@ -194,7 +194,7 @@ footer p {
 }
 
 .social a {
-    background-color: red;
+    background-color: #f9004d;
     border-radius: 50%;
     display: flex;
     align-items: center;
