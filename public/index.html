@@ -5,17 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="stylesheet" href="../src/css/menu.css">
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/root.css">
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/font-awesome.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
     <title>Rafael Faust</title>
 </head>
 
 <body>
-    <div class="first-box" id="home">
+    <div class="first-box header" id="home">
         <nav>
-            <h2 class="portfolio">Portfó<spaw>lio</spaw></h2>
+            <img src="../src/images/minilogo.png" alt="minilogo" class="logo">
+            <input type="checkbox" id="menu-hamburger">
+
+            <label for="menu-hamburger">
+                <div class="menu">
+                    <span class="hamburger"></span>
+                </div>
+            </label>
             <ul>
                 <li><a class="link-menu" href="#home">Home</a></li>
                 <li><a class="link-menu" href="#sobre">Sobre</a></li>
@@ -23,24 +37,22 @@
                 <li><a class="link-menu" href="#fale-comigo">Fale comigo</a></li>
             </ul>
         </nav>
-
-        <div class="name">
-            <h1>Rafael <spaw>Faust</spaw></h1>
-            <h3>Programador Full Stack</h3>
-        </div>
-        <img class="tec" src="./images/tecnologias.png">
+        <main class="name">
+            <img src="../src/images/logotipo.png" alt="Logotipo" class="logotipo">
+            <img class="tec" src="../src/images/developer.jpg">
+        </main>
     </div>
 
     <section id="sobre">
-        <img src="./images/Rafael 03.jpg">
+        <img src="../src/images/foto.png">
         <div>
             <h2>Sobre mim</h2>
             <p>Sou Rafael Faust Rodrigues, 40 anos, muito conhecido como Webfael por conta da minha profissão de
                 Analista em TI e um canal no youtube chamado Webgamer, e a programação pra mim sempre foi apenas um
                 hobby mas encontrei nela uma inspiração e prentendo me torna um desevolvedor full stack, conheço
-                liguagens como Delphi, JAVA, Phyton e agora no DevClub aprendendo o Front End me vejo proximo dos meus
-                objetivos .</p>
-            <button>Entre em contato</button>
+                liguagens como Delphi, Phyton e agora no DevClub aprendendo o JavaScript e suas bibliotecas me vejo proximo dos meus
+                objetivos.</p>
+            <button href="https://docs.google.com/forms/d/1qUddMed88qMBnirubeIpGomi3mCbU_-f7BKtm7bfTjE/prefill" target="_blank">Entre em contato</button>
         </div>
     </section>
 
@@ -50,22 +62,22 @@
         <div class="card-project">
 
             <div class="card">
-                <img src="./images/conversor.png">
+                <img src="../src/images/conversor.png">
                 <h5>Conversor</h5>
                 <p>Site criado de um desafio, após concluir modulo de JavaScript, o que tornara melhor ao inserir react
                     fazendo a taxas de conversão serem as do mercado atual.</p>
                 <a href="https://conversor-rafael-faust.netlify.app/" target="_blank">Ver Projeto</a>
             </div>
 
-            <div class="card">
-                <img src="./images/img1.png">
+            <div class="card off">
+                <img src="../src/images/img1.png">
                 <h5>Starbucks</h5>
                 <p>Site criado na maratona programação do zero do DevClub, utilizado HTML5, CSS e JavaScript</p>
                 <a href="https://starbucks-rafael-faust.netlify.app/" target="_blank">Ver Projeto</a>
             </div>
 
-            <div class="card">
-                <img src="./images/Calculadora.png">
+            <div class="card off">
+                <img src="../src/images/Calculadora.png">
                 <h5>Calculadora</h5>
                 <p>Site que simula uma calculadora e os codigos html, css e javascript todos na pagina do HTML.</p>
                 <a href="https://calculadora-rafael-faust.netlify.app/" target="_blank">Ver Projeto</a>
@@ -76,21 +88,27 @@
     </div>
 
     <footer id="fale-comigo">
-        <h5>Rafael <spaw>Faust</spaw></h5>
+        <img src="../src/images/logotipo.png" alt="Logotipo">
         <p>Para mais informações</p>
 
         <div class="social">
-            <a href="https://www.linkedin.com/in/rafaelfaustrodrigues/" target="_blank">
-                <img src="./images/linkdin.png">
+            <a href="https://www.facebook.com/Webfael" target="_blank">
+                <i class="fab fa-facebook-square"></i>
             </a>
-
+            <a href="https://www.instagram.com/webfael/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/webfaelgamer" target="_blank">
+                <i class="fab fa-twitter-square"></i>
+            </a>
             <a href="https://wa.me/5548991710383" target="_blank">
-                <img src="./images/whatsapp.png">
+                <i class="fab fa-whatsapp-square"></i>
+            </a>
+            <a href="https://www.youtube.com/@webfael" target="_blank">
+                <i class="fab fa-youtube-square"></i>
             </a>
         </div>
-
     </footer>
-
 </body>
 
-</html>
+</html
